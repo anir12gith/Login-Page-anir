@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page{
+    width: 100%;
+    height: 700px;
+    background-image: url(black.jpg);
+    
+    background-size: 100%;
+    
+}
+.page .box{
+    height: 350px;
+    width: 320px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 60px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 22, 0.753);
+    filter: drop-shadow(1px 1px 20px skyblue);
+}
+.page .box .all{
+    margin-top: 50px;
+}
+.page .box .text h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 50px;
+    position: absolute;
+    top: 6%;
+    left: 25%;
+    text-transform: uppercase;
+    
+}
+.page .box .elemnt input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    display: block;
+    margin-left: 40px;
+    
+}
+.page .box .elemnt .inp1{
+    position: absolute;
+    top: 30%;
+    left: -2%;
+}
+.page .box .elemnt .inp2{
+    position: absolute;
+    top: 44%;
+    left: -2%;
+}
+.page .box .Text2{
+    position: absolute;
+    top: 60%;
+    left: 14%;
+}
+.page .box .Text2 a{
+    color: white;
+    margin-left: 20px;
+    
+}
+
+.page .box .sbt input{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(27, 28, 29);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+.page .box .reget{
+    position: absolute;
+    top: 85%;
+    left: 16%;
+}
+.page .box .reget p{
+    color: white;
+    display: inline-block;
+}
+.page .box .reget a{
+    color: skyblue;
+}
+
+.page .box .sbt input:hover{
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.05);
+    
+    filter: drop-shadow(1px 1px 10px skyblue);
+}
+
+.page .box .elemnt input:focus::placeholder{
+    transition: 1s;
+    font-size: 12px;
+}
+
+.page .box .elemnt input::placeholder{
+    font-size: 15px;
+}
