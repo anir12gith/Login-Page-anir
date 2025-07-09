@@ -6,3 +6,6 @@ Each project I make helps me grow, learn new techniques, and turn ideas into rea
 Thanks for checking it out!
 
 Feel free to give feedback or suggestions 😊
+
+![Project Screenshot]
+(Screenshot (2).png)
